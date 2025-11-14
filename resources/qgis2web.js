@@ -486,7 +486,7 @@ var Abstract = new ol.control.Control({
             hideAbstract();
         } else {
             linkElement.classList.add("project-abstract-uncollapsed");
-            linkElement.innerHTML = 'Peta ini menampilan sebaran Hak Guna Usaha (HGU) dan Perusahaan Perkebunan di Kab. Labuhanbatu';
+            linkElement.innerHTML = 'Peta Sebaran Perusahaan Perkebunan di Kab. Labuhanbatu Jumlah Perusahaan Perkebunan Swasta 288 Bidang BUMN 88 Bidang Total 377 Bidang';
         }
 
         titleElement.appendChild(linkElement);
@@ -1210,3 +1210,4 @@ document.addEventListener('DOMContentLoaded', function() {
         bottomRightContainerDiv.appendChild(attributionControl);
 
     }
+
